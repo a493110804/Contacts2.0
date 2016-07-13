@@ -22,8 +22,9 @@
 		8A4AD3021D3231E300D0754C /* Delet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4AD3011D3231E300D0754C /* Delet.swift */; };
 		8A4AD3041D32369C00D0754C /* Find.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4AD3031D32369C00D0754C /* Find.swift */; };
 		8A4AD3061D323A3D00D0754C /* findwhat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4AD3051D323A3D00D0754C /* findwhat.swift */; };
+		8A736C231D361F0400E21C50 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A736C221D361F0400E21C50 /* icon.png */; };
+		8A736C251D36250200E21C50 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A736C241D36250200E21C50 /* Default.png */; };
 		8AFECBDD1D338C17009DC9FA /* b24f722367f35cd699dbfc9e00746d9f.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AFECBDC1D338C17009DC9FA /* b24f722367f35cd699dbfc9e00746d9f.jpg */; };
-		8AFECBDF1D338C3D009DC9FA /* beijing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AFECBDE1D338C3D009DC9FA /* beijing.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +67,9 @@
 		8A4AD3011D3231E300D0754C /* Delet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delet.swift; sourceTree = "<group>"; };
 		8A4AD3031D32369C00D0754C /* Find.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Find.swift; sourceTree = "<group>"; };
 		8A4AD3051D323A3D00D0754C /* findwhat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = findwhat.swift; sourceTree = "<group>"; };
+		8A736C221D361F0400E21C50 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		8A736C241D36250200E21C50 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		8AFECBDC1D338C17009DC9FA /* b24f722367f35cd699dbfc9e00746d9f.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b24f722367f35cd699dbfc9e00746d9f.jpg; sourceTree = "<group>"; };
-		8AFECBDE1D338C3D009DC9FA /* beijing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beijing.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +124,8 @@
 		8A4AD2C61D3221BB00D0754C /* Contacts2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				8AFECBDE1D338C3D009DC9FA /* beijing.jpg */,
+				8A736C241D36250200E21C50 /* Default.png */,
+				8A736C221D361F0400E21C50 /* icon.png */,
 				8AFECBDC1D338C17009DC9FA /* b24f722367f35cd699dbfc9e00746d9f.jpg */,
 				8A4AD2C71D3221BB00D0754C /* AppDelegate.swift */,
 				8A4AD2C91D3221BB00D0754C /* ViewController.swift */,
@@ -271,10 +274,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A4AD2D21D3221BB00D0754C /* LaunchScreen.storyboard in Resources */,
+				8A736C231D361F0400E21C50 /* icon.png in Resources */,
 				8A4AD2F61D3221EC00D0754C /* data.db in Resources */,
 				8AFECBDD1D338C17009DC9FA /* b24f722367f35cd699dbfc9e00746d9f.jpg in Resources */,
+				8A736C251D36250200E21C50 /* Default.png in Resources */,
 				8A4AD2CF1D3221BB00D0754C /* Assets.xcassets in Resources */,
-				8AFECBDF1D338C3D009DC9FA /* beijing.jpg in Resources */,
 				8A4AD2CD1D3221BB00D0754C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

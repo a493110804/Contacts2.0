@@ -12,7 +12,6 @@ class ViewController: UIViewController {
     
     var db:SQLiteDB!
 
-
     @IBOutlet weak var name: UITextField!
     @IBOutlet weak var phone: UITextField!
     @IBOutlet weak var email: UITextField!
@@ -53,7 +52,8 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
+
     
 }
 
